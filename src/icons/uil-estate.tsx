@@ -1,10 +1,7 @@
 import React from 'react';
+import { Icon } from '../icon';
 
-const UilEstate: React.FC<React.SVGAttributes<SVGElement> & { color?: string; size?: number | string }> = ({
-  color = 'currentColor',
-  size = '24',
-  ...otherProps
-}) => {
+const UilEstate: Icon = ({ color = 'currentColor', size = '24', ...otherProps }) => {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg" {...otherProps}>
       <path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" />

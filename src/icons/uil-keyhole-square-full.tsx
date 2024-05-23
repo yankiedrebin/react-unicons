@@ -1,10 +1,7 @@
 import React from 'react';
+import { Icon } from '../icon';
 
-const UilKeyholeSquareFull: React.FC<React.SVGAttributes<SVGElement> & { color?: string; size?: number | string }> = ({
-  color = 'currentColor',
-  size = '24',
-  ...otherProps
-}) => {
+const UilKeyholeSquareFull: Icon = ({ color = 'currentColor', size = '24', ...otherProps }) => {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg" {...otherProps}>
       <path d="M11,11.72V15a1,1,0,0,0,2,0V11.72A2,2,0,0,0,14,10a2,2,0,0,0-4,0A2,2,0,0,0,11,11.72ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z" />

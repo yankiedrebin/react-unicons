@@ -1,10 +1,7 @@
 import React from 'react';
+import { Icon } from '../icon';
 
-const UilBracketsCurly: React.FC<React.SVGAttributes<SVGElement> & { color?: string; size?: number | string }> = ({
-  color = 'currentColor',
-  size = '24',
-  ...otherProps
-}) => {
+const UilBracketsCurly: Icon = ({ color = 'currentColor', size = '24', ...otherProps }) => {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg" {...otherProps}>
       <path d="M6 6a2 2 0 0 1 2-2 1 1 0 0 0 0-2 4 4 0 0 0-4 4v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 4 4 1 1 0 0 0 0-2 2 2 0 0 1-2-2v-3a4 4 0 0 0-1.38-3A4 4 0 0 0 6 9Zm16 5a2 2 0 0 1-2-2V6a4 4 0 0 0-4-4 1 1 0 0 0 0 2 2 2 0 0 1 2 2v3a4 4 0 0 0 1.38 3A4 4 0 0 0 18 15v3a2 2 0 0 1-2 2 1 1 0 0 0 0 2 4 4 0 0 0 4-4v-3a2 2 0 0 1 2-2 1 1 0 0 0 0-2Z" />
